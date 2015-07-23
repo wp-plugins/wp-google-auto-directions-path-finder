@@ -2,14 +2,14 @@
  
 /*
 Plugin Name:  WP Google Auto Directions Path Finder
-Plugin URI: http://www.luciaintelisano.it/wp-auto-Restaurant-finder
-Description: A plugin to get/find Restaurants on google maps in a very easy way
+Plugin URI: http://www.luciaintelisano.it/wp-google-auto-directions-path-finder
+Description: A plugin to get/find best route between two points with autodetection
 Version: 1.0.0
 Author: Lucia Intelisano
 Author URI: http://www.luciaintelisano.it
 */
 
-/*  Copyright 2015  WP Auto Restaurant Finder  (email : lucia.intelisano@gmail.com) */
+/*  Copyright 2015   WP Google Auto Directions Path Finder  (email : lucia.intelisano@gmail.com) */
 
   	// init plugin
 	wgadpf_init();
