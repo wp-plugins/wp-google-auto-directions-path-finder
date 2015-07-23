@@ -4,7 +4,7 @@
 Plugin Name:  WP Google Auto Directions Path Finder
 Plugin URI: http://www.luciaintelisano.it/wp-google-auto-directions-path-finder
 Description: A plugin to get/find best route between two points with autodetection
-Version: 1.0.0
+Version: 1.1.0
 Author: Lucia Intelisano
 Author URI: http://www.luciaintelisano.it
 */
