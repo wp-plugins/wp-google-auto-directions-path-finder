@@ -158,7 +158,7 @@ function initialize3000() {
 	map3000.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById('btnPrint'));
 	map3000.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById('btnWalking'));
 	map3000.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById('btnDriving'));
-	map3000.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(input);
+	map3000.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 	 
 	var autocomplete3000 = new google.maps.places.Autocomplete(input);
 	autocomplete3000.bindTo('bounds', map3000);
