@@ -4,7 +4,7 @@ Donate link: http://www.luciaintelisano.it/wp-google-auto-directions-path-finder
 Tags: auto, find, google maps, directions, path, restaurant, bar, hotel, hotels, location, map, photo, plugin, responsive, slider, wordpress, address location map, address map, AJAX, business locations, coordinates,  geo, geocoding, google, google maps, jquery, latitude, location finder, locator maps, longitude, map creator, map maker, map multiple locations, map of addresses, map tools, mapper, mapping, mapping software, mapping tools, maps, page, places, plugin, post, posts, shortcode, hotel finder, hotel locator, hotel locator map, hotels, widget, wordpress locator, zip code, zip code search, zipcode
 Requires at least: 3.1
 Tested up to: 4.2.2
-License: GPLv2 or later
+License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Calculates the best route between two points using google directions. With auto detection for both points.
