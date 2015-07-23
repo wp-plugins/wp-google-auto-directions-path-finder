@@ -76,7 +76,7 @@ Author URI: http://www.luciaintelisano.it
 			), $atts, 'wgadpf' );			
 			$dir = plugin_dir_path( __FILE__ );
 			$cnt = file_get_contents($dir."template/map.html");
-			 
+			$cnt = str_replace('{URL_PLUGIN}', plugin_dir_url( __FILE__ ),$cnt);
 			$cnt = str_replace('{TITLE_START}',strip_tags($atts["title_start"]),$cnt);
 			$cnt = str_replace('{TITLE_END}',strip_tags($atts["title_end"]),$cnt);
 			$cnt = str_replace('{START_LOCATION}',strip_tags($atts["start_address"]),$cnt);

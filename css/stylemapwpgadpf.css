@@ -1,9 +1,22 @@
+ 
+ .columnsContainer { position: relative; margin: .5em;  z-index: 99999;   }
+
+.leftColumn, .rightColumn {  border: 1px solid  #ccc; padding: 0.25em; z-index: 99999;}
+
+.leftColumn { margin-bottom: .5em; }
+@media screen and (min-width: 19em ) {
+  .leftColumn { margin-right: 16em; }
+
+	.rightColumn { position: absolute; top: 0px; right: 0; width: 15em;  background: #fff; height:400px;}   
+}
+  
    #map-canvas3000 {
+   z-index: 999;
+   width: 100%;
         height: 400px;
         margin: 0;
         padding: 0;
       }
-
       #panel {
         position: absolute;
         top: 5px;
@@ -39,7 +52,7 @@
      height: 400px;
         overflow:hidden;
         float: right;
-        width: 190px;
+       width: 100%;
         overflow: auto;
       }
 
@@ -98,4 +111,20 @@ td {
     padding: 0.5em 2px;
     vertical-align: top;
 }
-
+  #btnResize {
+   z-index: 99999;
+   cursor:pointer;
+    }
+  #btnPrint {
+   z-index: 99999;
+   cursor:pointer;
+    }
+  #btnWalking {
+   z-index: 99999;
+   cursor:pointer;
+    }
+ #btnDriving {
+   z-index: 99999;
+   cursor:pointer;
+    }     
+    
