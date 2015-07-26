@@ -12,6 +12,10 @@ Calculates the best route between two points using google directions. With auto 
  
 == Description ==
 [youtube https://www.youtube.com/watch?v=Scx3f9do3JI]
+
+DEMO: http://www.luciaintelisano.it/wp-google-auto-directions-path-finder/
+
+
 Google Maps gives you the ability to generate directions between start and end point. This plugin uses Google Maps API to embed the Google Direction to your WordPress site. 
 This plugin will show the route on the map and also give detailed directions between two points.
 
