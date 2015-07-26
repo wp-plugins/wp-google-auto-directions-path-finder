@@ -4,7 +4,7 @@ Donate link: http://www.luciaintelisano.it/wp-google-auto-directions-path-finder
 Tags: auto, find, google maps, directions, path, restaurant, bar, hotel, hotels, location, map, photo, plugin, responsive, slider, wordpress, address location map, address map, AJAX, business locations, coordinates,  geo, geocoding, google, google maps, jquery, latitude, location finder, locator maps, longitude, map creator, map maker, map multiple locations, map of addresses, map tools, mapper, mapping, mapping software, mapping tools, maps, page, places, plugin, post, posts, shortcode, hotel finder, hotel locator, hotel locator map, hotels, widget, wordpress locator, zip code, zip code search, zipcode
 Requires at least: 3.1
 Tested up to: 4.2.2
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,10 @@ Auto detection of gps coordinates for departure and arrival.
 == Changelog ==
 
 = 1.0 =
- 
+Added basic functions
+= 2.0 = 
+Added fullscreen and buttons for driving and walking directions
+= 2.1 =
+Bug fixed on button for adding map on content editor 
 
  

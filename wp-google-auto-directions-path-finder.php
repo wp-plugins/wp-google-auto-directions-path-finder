@@ -123,7 +123,11 @@ function wgadpf_settings_page() {
     ?>
     <table class="form-table">
        
-         
+        
+         <tr valign="top">
+        <th scope="row">Shortcode</th>
+        <td>  [wpgadpf end_address="insert here destination address" title_start="insert here title for from place" title_end="insert here title for destination place" ]</td>
+        </tr>
         <tr valign="top">
         <th scope="row">View on post of categories</th>
         <td><input type="text" name="wgadpf_view_on_cat" value="<?php echo esc_attr( get_option('wgadpf_view_on_cat') ); ?>" /> (es. cat1,cat2,...)</td>
@@ -251,7 +255,7 @@ function wgadpf_my_the_post_action( $content ) {
     
 }
  function wgadpf_add_my_media_button() {
-    echo '<a href="javascript:wp.media.editor.insert(\'[wpgadpf end_address= title_start= title_end= ]\');" id="insert-my-media" class="button">Add directions map</a>';
+    echo '<a href="javascript:wp.media.editor.insert(\'[wpgadpf end_address=&quot;&quot; title_start=&quot;&quot; title_end=&quot;&quot; ]\');" id="insert-my-media" class="button">Add directions map</a>';
 }
  
  
