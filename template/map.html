@@ -1,0 +1,32 @@
+<script>
+    var lat3000 ='';
+    var lng3000= '';
+    var address3000 = '{END_LOCATION}';
+    var img1 = '{URL_PLUGIN}/img/fsicon.png';
+    var img2 = '{URL_PLUGIN}/img/fsicon2.png';
+    var fsmode = "fullscreen";
+</script>
+    
+
+    <h3>
+      {TITLE_START} <span id="spanStartLocation">{START_LOCATION}</span>
+    </h3>
+    <h3>
+      {TITLE_END} <span id="spanEndLocation">{END_LOCATION}</span>
+    </h3>
+<div id="control-panel">
+ 		<input id="pac-input-start"   type="text" placeholder="Enter a location">
+ 		<img height="32px"  src="{URL_PLUGIN}/img/fsicon.png" onclick="resizeMap1();"   name="btnResize" id="btnResize"/>
+ 		<img height="32px"  src="{URL_PLUGIN}/img/printer.png" onclick="printMap();"   name="btnPrint" id="btnPrint"/>
+ 		<img height="32px"  src="{URL_PLUGIN}/img/walking.png" onclick="calcRoute3000('walking');"   name="btnWalking" id="btnWalking"/>
+ 		<img height="32px"  src="{URL_PLUGIN}/img/driving.png" onclick="calcRoute3000();"   name="btnDriving" id="btnDriving"/>
+</div>
+<div class="columnsContainer">
+	 
+	<div class="leftColumn">
+		<div id="map-canvas3000"></div>
+	</div>
+	<div class="rightColumn" id="rightColumnDiv">	
+		<div id="directions-panel" class="panel"></div>
+	</div>	
+</div>
