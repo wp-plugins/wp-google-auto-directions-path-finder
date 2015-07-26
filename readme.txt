@@ -11,8 +11,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Calculates the best route between two points using google directions. With auto detection for both points.
  
 == Description ==
+[youtube https://www.youtube.com/watch?v=Scx3f9do3JI]
 Google Maps gives you the ability to generate directions between start and end point. This plugin uses Google Maps API to embed the Google Direction to your WordPress site. 
 This plugin will show the route on the map and also give detailed directions between two points.
+
+Shortcode: [wpgadpf end_address="insert here destination address" title_start="insert here title for from place" title_end="insert here title for destination place" ]
 
 Shows Google driving directions on map.
 Shows Google walking directions on map.
